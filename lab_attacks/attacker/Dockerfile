@@ -26,7 +26,47 @@ ENV NOTVISIBLE "in users profile"
 RUN echo "export VISIBLE=now" >> /etc/profile
 EXPOSE 22
 
-COPY rockyou.txt .
+COPY rockyou_160000_1.txt .
+COPY rockyou_160000_2.txt .
+COPY rockyou_160000_3.txt .
+COPY rockyou_160000_4.txt .
+COPY rockyou_160000_5.txt .
+COPY rockyou_160000_6.txt .
+COPY rockyou_160000_7.txt .
+COPY rockyou_160000_8.txt .
+COPY rockyou_160000_9.txt .
+COPY rockyou_160000_10.txt .
+COPY rockyou_160000_11.txt .
+COPY rockyou_160000_12.txt .
+COPY rockyou_160000_13.txt .
+COPY rockyou_160000_14.txt .
+COPY rockyou_160000_15.txt .
+COPY rockyou_160000_16.txt .
+COPY rockyou_160000_17.txt .
+COPY rockyou_160000_18.txt .
+COPY rockyou_160000_19.txt .
+COPY rockyou_160000_20.txt .
+COPY rockyou_160000_21.txt .
+COPY rockyou_160000_22.txt .
+COPY rockyou_160000_23.txt .
+COPY rockyou_160000_24.txt .
+COPY rockyou_160000_25.txt .
+COPY rockyou_160000_26.txt .
+COPY rockyou_160000_27.txt .
+COPY rockyou_160000_28.txt .
+COPY rockyou_160000_29.txt .
+COPY rockyou_160000_30.txt .
+COPY rockyou_160000_31.txt .
+COPY rockyou_160000_32.txt .
+COPY rockyou_160000_33.txt .
+COPY rockyou_160000_34.txt .
+COPY rockyou_160000_35.txt .
+COPY rockyou_160000_36.txt .
+COPY rockyou_160000_37.txt .
+COPY rockyou_160000_38.txt .
+COPY rockyou_160000_39.txt .
+COPY rockyou_160000_40.txt .
+
 
 #Create the files with which we will check if the results have already been stored
 RUN echo 0 > checkAttackerReceiver.txt
